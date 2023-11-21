@@ -11,3 +11,5 @@
 @import "./utilitarios/componentes.css";
 @import "./utilitarios/tipografia.css";
 @import "./utilitarios/cores.css";
+
+@import "./bicicletas/bicicletas-lista.css"
