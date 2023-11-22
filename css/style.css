@@ -1,18 +1,22 @@
-
+/* Configurações Globais */
 @import "./global/global.css";
 
-
+/* Configurações do header */
 @import "./global/header.css";
 
-
+/* Estilos referentes a home */
 @import "./home/introducao.css";
 @import "./home/tecnologia.css";
 @import "./home/parceiros.css";
 @import "./home/depoimento.css";
 
-
+/* Utilitários */
 @import "./utilitarios/componentes.css";
 @import "./utilitarios/tipografia.css";
 @import "./utilitarios/cores.css";
 
-@import "./bicicletas/bicicletas-lista.css"
+/* Estilo referente a bicicletas */
+@import "./bicicletas/bicicletas-lista.css";
+
+/* Estilo referente a seguros */
+@import "./seguros/seguros.css";
