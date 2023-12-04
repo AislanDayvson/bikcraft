@@ -15,6 +15,7 @@
 @import "./utilitarios/componentes.css";
 @import "./utilitarios/tipografia.css";
 @import "./utilitarios/cores.css";
+@import "./utilitarios/formulario.css";
 
 /* Estilo referente a bicicletas */
 @import "./bicicletas/bicicletas-lista.css";
@@ -24,6 +25,9 @@
 @import "./seguros/seguros.css";
 @import "./seguros/vantagens.css";
 @import "./seguros/perguntas.css";
+
+@import "./contato/contato.css";
+@import "./contato/lojas.css";
 
 @import "./termos/termos.css";
 
