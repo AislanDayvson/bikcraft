@@ -46,7 +46,7 @@ function abrirPerguntas(pergunta){
 }
 
 botao.forEach(abrirPerguntas);
-console.log(botao)
+
 
 // Galeria de Imagens
 
