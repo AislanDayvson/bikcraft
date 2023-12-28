@@ -1,3 +1,4 @@
+
 //Ativar Links do Menu
 const links = document.querySelectorAll('.header-menu a');
 
@@ -66,4 +67,11 @@ function eventosGaleria(img){
 }
 
 galeria.forEach(eventosGaleria);
+
+//Animação
+
+if(window.SimpleAnime){
+    new SimpleAnime();
+}
+
 

@@ -16,6 +16,8 @@
 @import "./utilitarios/tipografia.css";
 @import "./utilitarios/cores.css";
 @import "./utilitarios/formulario.css";
+@import "./utilitarios/animacao.css";
+
 
 /* Estilo referente a bicicletas */
 @import "./bicicletas/bicicletas-lista.css";
