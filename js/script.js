@@ -25,3 +25,45 @@ function ativarProduto(parametro){
 
 parametros.forEach(ativarProduto);
 console.log(parametros)
+
+//Perguntas Frequentes
+
+const botao = document.querySelectorAll('.perguntas button');
+
+function ativarPergunta(event){
+    const pergunta = event.currentTarget;
+    const controls = pergunta.getAttribute('aria-controls');
+    const resposta = document.getElementById(controls)
+
+    resposta.classList.toggle('ativa');
+    const ativa = resposta.classList.contains("ativa")
+    pergunta.setAttribute("aria-expanded", ativa)
+}
+
+function abrirPerguntas(pergunta){
+    pergunta.addEventListener('click', ativarPergunta) 
+}
+
+botao.forEach(abrirPerguntas);
+console.log(botao)
+
+// Galeria de Imagens
+
+const galeria = document.querySelectorAll('.bicicleta-imagens img');
+const container = document.querySelector('.bicicleta-imagens')
+
+function trocarImg(event){
+    const img = event.currentTarget;
+    const media = matchMedia('(min-width: 1000px)').matches;
+
+    if(media){
+        container.prepend(img)
+    }
+}
+
+function eventosGaleria(img){
+    img.addEventListener('click', trocarImg)
+}
+
+galeria.forEach(eventosGaleria);
+
